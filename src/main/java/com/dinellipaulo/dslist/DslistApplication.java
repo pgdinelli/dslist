@@ -1,13 +1,13 @@
-package com.dinellipaulo.gamesrank;
+package com.dinellipaulo.dslist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GamesrankApplication {
+public class DslistApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GamesrankApplication.class, args);
+		SpringApplication.run(DslistApplication.class, args);
 	}
 
 }

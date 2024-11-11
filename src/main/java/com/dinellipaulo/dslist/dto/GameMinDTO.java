@@ -1,6 +1,6 @@
-package com.dinellipaulo.gamesrank.dto;
+package com.dinellipaulo.dslist.dto;
 
-import com.dinellipaulo.gamesrank.entities.Game;
+import com.dinellipaulo.dslist.entities.Game;
 
 public class GameMinDTO {
     private Long id;

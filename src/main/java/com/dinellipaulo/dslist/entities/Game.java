@@ -1,4 +1,4 @@
-package com.dinellipaulo.gamesrank.entities;
+package com.dinellipaulo.dslist.entities;
 
 import jakarta.persistence.*;
 

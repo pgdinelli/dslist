@@ -1,7 +1,7 @@
-package com.dinellipaulo.gamesrank.controllers;
+package com.dinellipaulo.dslist.controllers;
 
-import com.dinellipaulo.gamesrank.dto.GameMinDTO;
-import com.dinellipaulo.gamesrank.services.GameService;
+import com.dinellipaulo.dslist.dto.GameMinDTO;
+import com.dinellipaulo.dslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

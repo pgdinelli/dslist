@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.dinellipaulo</groupId>
-	<artifactId>gamesrank</artifactId>
+	<artifactId>dslist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gamesrank</name>
 	<description>Demo project for Spring Boot</description>

@@ -1,10 +1,10 @@
-package com.dinellipaulo.gamesrank;
+package com.dinellipaulo.dslist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GamesrankApplicationTests {
+class DslistApplicationTests {
 
 	@Test
 	void contextLoads() {
