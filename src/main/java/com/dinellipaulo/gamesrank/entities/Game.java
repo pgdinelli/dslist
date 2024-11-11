@@ -12,17 +12,23 @@ public class Game {
     private Long id;
     private String title;
 
-    @Column(name = "game_year")
+    @Column(name = "game_year") //year is a reserved word for the database, this annotation changes the name of the table in the database so it doesn't conflict
     private Integer year;
     private String genre;
     private String platforms;
     private Double score;
     private String imgUrl;
+
+    @Column(columnDefinition = "TEXT") //Description is too long for varchar(255), using this annotation fixes the issue
     private String shortDescription;
+
+    @Column(columnDefinition = "TEXT") //Description is too long for varchar(255), using this annotation fixes the issue
     private String longDescription;
 
+    //empty constructor
     public Game(){}
 
+    //constructor using arguments
     public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl, String shortDescription, String longDescription) {
         this.id = id;
         this.title = title;
@@ -35,6 +41,7 @@ public class Game {
         this.longDescription = longDescription;
     }
 
+    //getters and setters
     public Long getId() {
         return id;
     }
@@ -107,6 +114,7 @@ public class Game {
         this.longDescription = longDescription;
     }
 
+    //equals and hashCode methods allows for comparison of objects
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
