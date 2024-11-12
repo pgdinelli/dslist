@@ -18,7 +18,7 @@ public class GameMinDTO {
         this.imgUrl = entity.getImgUrl();
         this.shortDescription = entity.getShortDescription();
     }
-
+    //DTO class is not necessary to implement set methods
     public Long getId() {
         return id;
     }
