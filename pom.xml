@@ -11,7 +11,7 @@
 	<groupId>com.dinellipaulo</groupId>
 	<artifactId>dslist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gamesrank</name>
+	<name>dslist</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
