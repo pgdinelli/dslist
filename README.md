@@ -27,7 +27,7 @@ Pré-requisitos: Java 11
 # clonar repositório
 git clone https://github.com/pgdinelli/dslist
 
-# entrar na pasta do projeto back end
+# entrar na pasta do projeto
 cd dslist
 
 # executar o projeto
