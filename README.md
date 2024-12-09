@@ -1,7 +1,7 @@
 # Sobre o projeto DSList
 
 Projeto desenvolvido durante o Intensivão Java com Spring Boot, evento ministrado pelo professor Nélio Alves da [DevSuperior](https://devsuperior.com "Site da DevSuperior").
-Trata-se de uma aplicação backend que tem como finalidade guardar no banco de dados uma lista de jogos, possibilitando ao usuário adicionar e mover os itens da lista através das requisições HTTP.
+Trata-se de uma aplicação backend que tem como finalidade guardar no banco de dados uma lista de jogos, possibilitando ao usuário buscar e mover os itens da lista através das requisições HTTP.
 
 ## Modelo de domínio
 ![Modelo Conceitual](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
